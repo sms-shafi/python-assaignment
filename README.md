@@ -1,27 +1,33 @@
-Task 1
+# Task 1 – Basic Arithmetic Operations
 
-a=input('Enter the first number: ')
-b=input('Enter the second number: ')
-#These lines prompt the user to enter two numbers.
-#input() always returns a string, so we need to convert them to integers.
+This Python program takes two numbers as input from the user and performs basic arithmetic operations: addition, subtraction, multiplication, and division.
 
-a=int(a)
-b=int(b)
-#Converts the string inputs to integers so you can do math with them.
+---
 
-ab1=(a+b)
-print('Addition: ',ab1)
-#Adds the two numbers and prints the result.
+## Code
 
-ab2=(a-b)
-print('Subtraction: ',ab2)
-#Subtracts the second number from the first and prints the result.
+```python
+a = input('Enter the first number: ')
+b = input('Enter the second number: ')
+# These lines prompt the user to enter two numbers.
+# input() always returns a string, so we need to convert them to integers.
 
-ab3=(a*b)
-print('Multiplication: ',ab3)
-#Multiplies the two numbers and prints the result.
+a = int(a)
+b = int(b)
+# Converts the string inputs to integers so you can do math with them.
 
-ab4=(a/b)
-print('Dividion: ',ab4)
-#Divides the two numbers and prints the result.
+ab1 = (a + b)
+print('Addition: ', ab1)
+# Adds the two numbers and prints the result.
 
+ab2 = (a - b)
+print('Subtraction: ', ab2)
+# Subtracts the second number from the first and prints the result.
+
+ab3 = (a * b)
+print('Multiplication: ', ab3)
+# Multiplies the two numbers and prints the result.
+
+ab4 = (a / b)
+print('Division: ', ab4)
+# Divides the two numbers and prints the result.
