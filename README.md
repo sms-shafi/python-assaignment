@@ -6,7 +6,7 @@ This Python program takes two numbers as input from the user and performs basic 
 
 ## Code
 
-```python
+```
 a = input('Enter the first number: ')
 b = input('Enter the second number: ')
 # These lines prompt the user to enter two numbers.
@@ -23,11 +23,27 @@ print('Addition: ', ab1)
 ab2 = (a - b)
 print('Subtraction: ', ab2)
 # Subtracts the second number from the first and prints the result.
-
+#
 ab3 = (a * b)
 print('Multiplication: ', ab3)
 # Multiplies the two numbers and prints the result.
+```
+Task 2: Greet the User with Full Name
 
-ab4 = (a / b)
-print('Division: ', ab4)
-# Divides the two numbers and prints the result.
+#This program asks for the user's first and last name, then greets them using their full name.
+
+##Code
+```
+a = input('Enter your first name: ')
+# This line asks the user to enter their first name and stores it in variable a.
+
+b = input('Enter your last name: ')
+# This line asks the user to enter their last name and stores it in variable b.
+
+c = a + " " + b
+# This joins the first name and last name with a space in between, and stores the full name in variable c.
+
+print('Hello, ' + c + '! Welcome to Python program.')
+# This prints a greeting message using the full name entered by the user.
+
+
