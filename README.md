@@ -2,9 +2,9 @@
 
 This Python program takes two numbers as input from the user and performs basic arithmetic operations: addition, subtraction, multiplication, and division.
 
+---
 
-
-## Code
+# Code
 
 ```
 a = input('Enter the first number: ')
@@ -22,19 +22,36 @@ print('Addition: ', ab1)
 
 ab2 = (a - b)
 print('Subtraction: ', ab2)
-# Subtracts the second number from the first and prints the result.
-#
+# Subtracts the two numbers and prints the result.
+
 ab3 = (a * b)
 print('Multiplication: ', ab3)
 # Multiplies the two numbers and prints the result.
-```
-# Task 2 - Greet the User with Full Name
 
-#This program asks for the user's first and last name, then greets them using their full name.
+ab4 = (a / b)
+print('Dividion: ',ab4)
+Divides the first number by the second and prints the result.
+
+```
+# sample output
 
 ---
 
-## Code
+```
+Enter the first number: 10
+Enter the second number: 5
+Addition:  15
+Subtraction:  5
+Multiplication:  50
+Dividion:  2.0
+```
+# Task 2 - Greet the User with Full Name
+
+This program asks for the user's first and last name, then greets them using their full name.
+
+---
+
+# Code
 
 ```
 a = input('Enter your first name: ')
@@ -48,5 +65,12 @@ c = a + " " + b
 
 print('Hello, ' + c + '! Welcome to Python program.')
 # This prints a greeting message using the full name entered by the user.
+```
+# sample output
+---
 
+```
+Enter your first name: Shaik
+Enter your last name: shafi
+Hello, Shaik shafi! Welcome to Python program.
 
