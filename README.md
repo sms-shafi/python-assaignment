@@ -28,11 +28,14 @@ ab3 = (a * b)
 print('Multiplication: ', ab3)
 # Multiplies the two numbers and prints the result.
 ```
-Task 2: Greet the User with Full Name
+# Task 2 - Greet the User with Full Name
 
 #This program asks for the user's first and last name, then greets them using their full name.
 
-##Code
+---
+
+## Code
+
 ```
 a = input('Enter your first name: ')
 # This line asks the user to enter their first name and stores it in variable a.
