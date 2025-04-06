@@ -2,7 +2,7 @@
 
 This Python program takes two numbers as input from the user and performs basic arithmetic operations: addition, subtraction, multiplication, and division.
 
----
+
 
 ## Code
 
